@@ -6,10 +6,10 @@ export const GifGrid = ({ category }) => {
 
   return (
     <>
-      <h3>{category}</h3>
+      <h2>{category}</h2>
       {/* <LoadingMessage isLoading={isLoading}/> */}
 
-      {isLoading && <h2>Cargando...</h2>}
+      {isLoading && <h3>Cargando...</h3>}
 
       <div className="card-grid">
         {images.map((image) => (
